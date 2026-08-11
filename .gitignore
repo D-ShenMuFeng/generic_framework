@@ -1,0 +1,36 @@
+# IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+build/
+
+# 日志、临时文件
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# 数据库临时文件
+*.dump
+*.sqlite
+*.db
+
+# Java构建
+target/
+.gradle/
+gradle-app.setting
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# 本地私有配置
+local.properties
+config.local.yaml
+env.properties
